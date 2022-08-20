@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "eda3479b-3bad-4de0-b2be-45c5a5ecce87",
+		"name": "Prize",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get prize By Coordinates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/v1/prize/14.5520365956368/121.01696118778582",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"prize",
+						"14.5520365956368",
+						"121.01696118778582"
+						
+					]
+				}
+			},
+			"response": []
+		}
+
+	],
+	"protocolProfileBehavior": {}
+}
